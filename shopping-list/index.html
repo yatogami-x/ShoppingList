@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <title>Alışveriş Listesi</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_ust">
+            <h1>Alışveriş Listesi</h1>
+            <h2>Alınacaklar: </h2>
+            <input id="tbox" type="text" placeholder="Ne alacaksın?">
+            <button id="btnAdd" class="btn" onclick="insertItem()">Ekle</button>
+            <button id="btnClr" class="btn" onclick="clearAll()">Listeyi Temizle</button>
+        </div>
+        <div class="form_alt">
+            <ul id="liste" style="list-style-type:none;">
+
+            </ul>
+        </div>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
